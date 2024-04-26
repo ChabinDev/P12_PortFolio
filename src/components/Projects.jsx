@@ -1,7 +1,7 @@
 import React from "react";
 import { projects } from "../assets/data";
 
-export const Projects = () => {
+export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -45,4 +45,4 @@ export const Projects = () => {
       </div>
     </section>
   );
-};
+}
