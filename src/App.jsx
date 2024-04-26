@@ -1,14 +1,16 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar.jsx";
-import Home from "./pages/Home.jsx";
+import { About } from "./components/About.jsx";
+import { Contact } from "./components/Contact.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
-      <div>
-        {/* <Navbar /> */}
-        <Home />
-      </div>
+      <main className="text-gray-400 bg-gray-900 body-font">
+        <About />
+        <Contact />
+        <Footer />
+      </main>
     </>
   );
 }

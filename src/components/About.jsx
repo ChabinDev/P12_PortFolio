@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+export const About = () => {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -34,10 +34,10 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./vite.svg"
           />
         </div>
       </div>
     </section>
   );
-}
+};
