@@ -1,0 +1,15 @@
+.cursor {
+    width: 62px;
+    height: 62px;
+    border: 2px solid $color-5;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 500ms ease-out;
+    z-index: 2;
+  }
+  .cursor.hovered {
+    width: 30px;
+    height: 30px;
+  }
