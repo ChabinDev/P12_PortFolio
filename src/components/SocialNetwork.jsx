@@ -1,5 +1,3 @@
-import React from "react";
-
 const SocialNetwork = () => {
   const anim = () => {
     const icons = document.querySelectorAll(".social-network a");
@@ -21,8 +19,6 @@ const SocialNetwork = () => {
           href="https://www.facebook.com"
           aria-label="Facebook"
           target="_blank"
-          rel="noopener
-        noreferrer"
           className="hover"
         >
           <li>
@@ -34,8 +30,6 @@ const SocialNetwork = () => {
           href="https://www.twitter.com"
           target="_blank"
           aria-label="twitter"
-          rel="noopener
-        noreferrer"
           className="hover"
           onMouseOver={anim}
         >
@@ -48,8 +42,6 @@ const SocialNetwork = () => {
           href="https://www.instagram.com"
           target="_blank"
           aria-label="Instagram"
-          rel="noopener
-        noreferrer"
           className="hover"
           onMouseOver={anim}
         >
