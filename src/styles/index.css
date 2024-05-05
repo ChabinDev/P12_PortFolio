@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
   outline: none;
   border: none;
@@ -31,7 +31,7 @@ html {
 
 a,
 a:visited {
-  color: rgb(141, 141, 141);
+  color: $white;
 }
 
 body {
@@ -72,7 +72,7 @@ main {
 .scroll-bottom a {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   font-size: 3rem;
   -webkit-transition: 0.25s;
@@ -102,11 +102,11 @@ main {
   width: 300px;
   text-align: left;
   -webkit-animation: color 30s alternate infinite;
-          animation: color 30s alternate infinite;
+  animation: color 30s alternate infinite;
   -webkit-perspective: 200px;
-          perspective: 200px;
+  perspective: 200px;
   -webkit-transform: translateX(26px);
-          transform: translateX(26px);
+  transform: translateX(26px);
 }
 .dynamic-text .word {
   position: absolute;
@@ -135,30 +135,30 @@ main {
 }
 .dynamic-text .letter {
   -webkit-transform: translateZ(200px);
-          transform: translateZ(200px);
+  transform: translateZ(200px);
 }
 @-webkit-keyframes anim {
   25% {
     -webkit-transform: translateZ(0px);
-            transform: translateZ(0px);
+    transform: translateZ(0px);
     opacity: 1;
   }
   32% {
     opacity: 0;
     -webkit-transform: translateZ(-280px) translateX(200px);
-            transform: translateZ(-280px) translateX(200px);
+    transform: translateZ(-280px) translateX(200px);
   }
 }
 @keyframes anim {
   25% {
     -webkit-transform: translateZ(0px);
-            transform: translateZ(0px);
+    transform: translateZ(0px);
     opacity: 1;
   }
   32% {
     opacity: 0;
     -webkit-transform: translateZ(-280px) translateX(200px);
-            transform: translateZ(-280px) translateX(200px);
+    transform: translateZ(-280px) translateX(200px);
   }
 }
 
@@ -186,7 +186,7 @@ main {
   border-radius: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   pointer-events: none;
   -webkit-transition: 500ms ease-out;
   transition: 500ms ease-out;
@@ -203,11 +203,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0 10px 0 10px;
   width: 100%;
   height: 50px;
@@ -228,7 +228,7 @@ footer .credits {
 @media screen and (max-width: 740px) {
   footer .credits {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
     font-size: 0.7rem;
     margin-right: 1rem;
   }
@@ -271,26 +271,26 @@ footer .address .content {
   left: -160px;
   z-index: -1;
   -webkit-animation: navAnim 10s infinite alternate;
-          animation: navAnim 10s infinite alternate;
+  animation: navAnim 10s infinite alternate;
 }
 @-webkit-keyframes navAnim {
   50% {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes navAnim {
   50% {
     -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    transform: scale(1.2);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @media screen and (max-width: 430px) {
@@ -306,7 +306,7 @@ footer .address .content {
   opacity: 0.5;
 }
 .navigation ul:hover li:hover {
-  color: #0000FF;
+  color: #0000ff;
 }
 .navigation .nav-portfolio {
   cursor: pointer;
@@ -331,7 +331,7 @@ footer .address .content {
 .navigation .nav-portfolio:hover .nav-projects li,
 .navigation .nav-portfolio .nav-projects:hover li {
   -webkit-transform: rotatey(0deg);
-          transform: rotatey(0deg);
+  transform: rotatey(0deg);
 }
 .navigation .nav-portfolio .nav-projects {
   position: absolute;
@@ -340,17 +340,17 @@ footer .address .content {
   padding: 0 40px;
   width: 300px;
   -webkit-transform: translateX(70px);
-          transform: translateX(70px);
+  transform: translateX(70px);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-perspective: 500px;
-          perspective: 500px;
+  perspective: 500px;
 }
 .navigation .nav-portfolio .nav-projects li {
   -webkit-transform: rotatey(30deg) scaleX(1.2);
-          transform: rotatey(30deg) scaleX(1.2);
+  transform: rotatey(30deg) scaleX(1.2);
   -webkit-transform-origin: center;
-          transform-origin: center;
+  transform-origin: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: rgb(40, 40, 40);
@@ -362,14 +362,14 @@ footer .address .content {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -399,14 +399,14 @@ footer .address .content {
   .social-network {
     width: 30%;
     -webkit-transform: translateY(75px);
-            transform: translateY(75px);
+    transform: translateY(75px);
   }
 }
 @media screen and (max-width: 400px) {
   .social-network {
     width: 40%;
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 .social-network ul {
@@ -416,7 +416,7 @@ footer .address .content {
   width: 100%;
   min-width: 100px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 @media screen and (max-width: 450px) {
   .social-network ul {
@@ -436,11 +436,11 @@ footer .address .content {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   width: 100vw;
   height: 100vh;
 }
@@ -455,7 +455,7 @@ footer .address .content {
   right: -460px;
   z-index: -10;
   -webkit-animation: contactAnim 25s alternate infinite;
-          animation: contactAnim 25s alternate infinite;
+  animation: contactAnim 25s alternate infinite;
 }
 @media screen and (max-width: 840px) {
   .contact:after {
@@ -473,21 +473,21 @@ footer .address .content {
 @-webkit-keyframes contactAnim {
   50% {
     -webkit-transform: scale(1.4);
-            transform: scale(1.4);
+    transform: scale(1.4);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes contactAnim {
   50% {
     -webkit-transform: scale(1.4);
-            transform: scale(1.4);
+    transform: scale(1.4);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @media screen and (max-width: 440px) {
@@ -578,8 +578,8 @@ footer .address .content {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .contact .formMessage p {
   border-radius: 10px;
@@ -663,7 +663,7 @@ footer .address .content {
 .contact-infos .email .content p:hover,
 .contact-infos .phone .content p:hover {
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
 }
 .contact-infos .address {
   position: relative;
@@ -691,7 +691,7 @@ footer .address .content {
   position: absolute;
   left: 40%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 @media screen and (max-width: 540px) {
   .contact-infos .phone .content {
@@ -699,7 +699,7 @@ footer .address .content {
     margin: 0 auto;
     left: 0;
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 @media screen and (max-width: 540px) {
@@ -729,7 +729,7 @@ footer .address .content {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 .contact-infos .credits {
   text-align: center;
@@ -737,7 +737,7 @@ footer .address .content {
 @media screen and (max-width: 740px) {
   .contact-infos .credits {
     -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    transform: translateY(20px);
     font-size: 0.7rem;
     margin-right: 1rem;
     grid-area: f;
@@ -763,7 +763,7 @@ footer .address .content {
   right: 0px;
   z-index: -2;
   -webkit-animation: homeAnim 26s infinite alternate;
-          animation: homeAnim 26s infinite alternate;
+  animation: homeAnim 26s infinite alternate;
 }
 @media screen and (max-width: 650px) {
   .home:after {
@@ -775,21 +775,21 @@ footer .address .content {
 @-webkit-keyframes homeAnim {
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 @keyframes homeAnim {
   50% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 @media screen and (max-width: 430px) {
@@ -800,8 +800,8 @@ footer .address .content {
 .home .home-main {
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   justify-items: center;
   height: 90%;
 }
@@ -831,9 +831,9 @@ footer .address .content {
   left: -180px;
   z-index: -1;
   -webkit-animation: h1Anim 1.5s forwards ease;
-          animation: h1Anim 1.5s forwards ease;
+  animation: h1Anim 1.5s forwards ease;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 @media screen and (max-width: 850px) {
   .home .home-main .main-content h1:before {
@@ -846,13 +846,13 @@ footer .address .content {
 @-webkit-keyframes h1Anim {
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes h1Anim {
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 .home .home-main .main-content h2 {
@@ -876,15 +876,15 @@ footer .address .content {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: 100vh;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   text-align: center;
   gap: 150px;
 }
@@ -902,7 +902,7 @@ footer .address .content {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 .notFound h3 {
@@ -913,7 +913,7 @@ footer .address .content {
 }
 .notFound h3:hover {
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .project {
@@ -950,9 +950,9 @@ footer .address .content {
   font-size: 1.1rem;
   line-height: 20px;
   -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
   -webkit-animation: navProject 1s ease forwards;
-          animation: navProject 1s ease forwards;
+  animation: navProject 1s ease forwards;
   color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 650px) {
@@ -969,13 +969,13 @@ footer .address .content {
 @-webkit-keyframes navProject {
   to {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 @keyframes navProject {
   to {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 .project .navigation:before {
@@ -984,29 +984,29 @@ footer .address .content {
 }
 .project .navigation .nav-projects {
   -webkit-transform: translateX(67px);
-          transform: translateX(67px);
+  transform: translateX(67px);
   padding: 0 20px;
 }
 .project .logo {
   top: 10px;
   left: 5%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-animation: logoProject 2s ease forwards;
-          animation: logoProject 2s ease forwards;
+  animation: logoProject 2s ease forwards;
 }
 @-webkit-keyframes logoProject {
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes logoProject {
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 .project .project-main {
@@ -1046,11 +1046,11 @@ footer .address .content {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 0 0.5rem;
   }
 }
@@ -1060,11 +1060,11 @@ footer .address .content {
   font-family: "font-2", serif;
   color: #00c1ec;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-animation: transformTitle 1.5s ease forwards;
-          animation: transformTitle 1.5s ease forwards;
+  animation: transformTitle 1.5s ease forwards;
   -webkit-transform-origin: 150%;
-          transform-origin: 150%;
+  transform-origin: 150%;
 }
 @media screen and (max-width: 810px) {
   .project .project-main .project-content h1 {
@@ -1079,13 +1079,13 @@ footer .address .content {
 @-webkit-keyframes transformTitle {
   to {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
 }
 @keyframes transformTitle {
   to {
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
 }
 .project .project-main .project-content p {
@@ -1149,7 +1149,7 @@ footer .address .content {
 .project .project-main .img-content .img-container {
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
-          box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
+  box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
   width: 600px;
   height: 380px;
   overflow: hidden;
@@ -1177,14 +1177,14 @@ footer .address .content {
 .project .project-main .img-content .img-container span:hover {
   visibility: visible;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 .project .project-main .img-content .img-container img {
   overflow: hidden;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 0%;
-     object-position: 0%;
+  object-position: 0%;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1195,9 +1195,9 @@ footer .address .content {
 .project .project-main .img-content .img-container img:hover,
 .project .project-main .img-content .img-container img span:hover img {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-filter: opacity(15%) contrast(150%);
-          filter: opacity(15%) contrast(150%);
+  filter: opacity(15%) contrast(150%);
 }
 .project .project-main .img-content .img-container span {
   position: absolute;
@@ -1212,7 +1212,7 @@ footer .address .content {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   -webkit-transform: translateY(200px);
-          transform: translateY(200px);
+  transform: translateY(200px);
 }
 .project .project-main .img-content .img-container span h3 {
   padding-bottom: 10px;
@@ -1226,11 +1226,11 @@ footer .address .content {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #fafeff;
   background: rgba(6, 74, 116, 0.758);
 }
@@ -1252,30 +1252,30 @@ footer .address .content {
   border-radius: 50%;
   z-index: -1;
   -webkit-animation: circleAnim 16s infinite alternate;
-          animation: circleAnim 16s infinite alternate;
+  animation: circleAnim 16s infinite alternate;
 }
 @-webkit-keyframes circleAnim {
   50% {
     -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes circleAnim {
   50% {
     -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @media screen and (max-width: 630px) {
   .project .random-circle {
     display: none;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
