@@ -16,7 +16,7 @@ const ToggleButton = () => {
   }, [theme]);
 
   return (
-    <div className={`ToggleButton '${theme}`}>
+    <div className={`ToggleButton ${theme}`}>
       <code>{theme}</code>
       <input
         type="checkbox"

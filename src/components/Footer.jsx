@@ -7,8 +7,8 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="adress">
-        <div className={`content '${theme}`}>
+      <div className="address">
+        <div className={`content ${theme}`}>
           <h2>ChabinDev</h2>
           <p>Nantes</p>
           <p>Développeur Web Junior - Freelance</p>
