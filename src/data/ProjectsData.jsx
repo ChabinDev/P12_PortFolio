@@ -5,7 +5,7 @@ export const projectsData = [
     date: "Novembre 2023",
     languages: ["Html", "Css"],
     infos:
-      "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver   des hébergements et des activitÃ©s dans la ville de leur choix. Je suis chargÃ© d'intÃ©grer l'interface du site avec du code HTML et CSS.",
+      "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver   des hébergements et des activitÃ©s dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     img: "./assets/img/booki/activites/florian-wehde.webp",
     link: "https://chabindev.github.io/P3_Booki/",
   },

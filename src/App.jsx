@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <AnimatePresence>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/P12_PortFolio/" exact element={<Home />} />
           <Route path="/Projet-1" element={<Project1 />} />
           <Route path="/Projet-2" element={<Project2 />} />
           <Route path="/Projet-3" element={<Project3 />} />
