@@ -13,8 +13,8 @@ const SocialNetwork = () => {
     });
   };
   return (
-    <div className="social-network">
-      <menu className="content">
+    <menu className="social-network">
+      <ul className="content">
         <a
           href="https://www.facebook.com"
           aria-label="Facebook"
@@ -49,8 +49,8 @@ const SocialNetwork = () => {
             <i className="fab fa-instagram"></i>
           </li>
         </a>
-      </menu>
-    </div>
+      </ul>
+    </menu>
   );
 };
 
