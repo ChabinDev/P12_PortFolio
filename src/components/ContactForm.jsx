@@ -51,25 +51,32 @@ const ContactForm = () => {
     <div className="form-container">
       <h2>Contactez-nous</h2>
       <form onSubmit={sendEmail} className="form-content">
-        <label>Nom</label>
+        <label for="nom">Nom</label>
         <input
+          name="nom"
           type="text"
+          id="nom"
           required
           autoComplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <label>Email</label>
+        <label for="email">Email</label>
         <input
+          name="email"
           type="email"
+          id="email"
           required
+          placeholder="exemmple@domaine.com"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           autoComplete="off"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <label>Message</label>
+        <label for="message">Message</label>
         <textarea
           name="message"
+          id="message"
           placeholder="Ecrivez votre message ici"
           required
           value={message}
