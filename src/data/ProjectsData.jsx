@@ -12,7 +12,7 @@ export const projectsData = [
   {
     id: 2,
     title: "Ohmyfood",
-    date: "DÃ©cembre 2023",
+    date: "Décembre 2023",
     languages: ["Html", "Css", "Sass"],
     infos:
       "Ma mission est de développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
@@ -22,7 +22,7 @@ export const projectsData = [
   {
     id: 3,
     title: "Print it",
-    date: "DÃ©cembre 2023",
+    date: "Décembre 2023",
     languages: ["Html", "Css", "JavaScript"],
     infos:
       "Dynamiser le site Internet statique d'une petite imprimerie familiale nommée Print it.",
