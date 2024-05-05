@@ -19,6 +19,7 @@ const SocialNetwork = () => {
       <ul className="content">
         <a
           href="https://www.facebook.com"
+          aria-label="Facebook"
           target="_blank"
           rel="noopener
         noreferrer"
@@ -32,6 +33,7 @@ const SocialNetwork = () => {
         <a
           href="https://www.twitter.com"
           target="_blank"
+          aria-label="twitter"
           rel="noopener
         noreferrer"
           className="hover"
@@ -45,6 +47,7 @@ const SocialNetwork = () => {
         <a
           href="https://www.instagram.com"
           target="_blank"
+          aria-label="Instagram"
           rel="noopener
         noreferrer"
           className="hover"
