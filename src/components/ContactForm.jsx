@@ -11,9 +11,9 @@ const ContactForm = () => {
     const formMess = document.querySelector(".formMessage");
 
     // Votre EmailJs service ID, Template ID et Public Key
-    const serviceId = "service_pu2nf79";
-    const templateId = "template_tesmtac";
-    const publicKey = "DcIo_T4gWNj5iiy-o";
+    const serviceId = process.env.React_App_SERSERVICE_ID;
+    const templateId = process.env.React_App_TEMPLATE_ID;
+    const publicKey = process.env.React_App_PUBLIC_KEY;
 
     // Création d'un nouvel Objet dynamic
     const templateParams = {
