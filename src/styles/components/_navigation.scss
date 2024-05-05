@@ -32,13 +32,13 @@
       }
     }
     .nav-active {
-      color: $color_Wave;
+      color: $white;
     }
     ul:hover li:not(:hover) {
       opacity: .5;
     }
     ul:hover li:hover {
-      color: $black;
+      color: $color_Wave;
     }
   
     .nav-portfolio {
