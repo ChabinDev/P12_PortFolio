@@ -5,7 +5,7 @@ export const projectsData = [
     date: "Novembre 2023",
     languages: ["Html", "Css"],
     infos:
-      "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver   des hébergements et des activitÃ©s dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+      "L'entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS.",
     img: "./assets/img/booki/activites/florian-wehde.webp",
     link: "https://chabindev.github.io/P3_Booki/",
   },
@@ -15,8 +15,8 @@ export const projectsData = [
     date: "DÃ©cembre 2023",
     languages: ["Html", "Css", "Sass"],
     infos:
-      "Ma mission est de dÃ©velopper un site â€œmobile firstâ€ qui rÃ©pertorie les menus de restaurants gastronomiques.",
-    img: "./assets/img/ohmyfood/restaurants/louis.jpg",
+      "Ma mission est de développer un site mobile first qui répertorie les menus de restaurants gastronomiques.",
+    img: "./assets/img/ohmyfood/restaurants/louis.webp",
     link: "https://chabindev.github.io/P4_Oh_my_Food/",
   },
   {
@@ -25,8 +25,8 @@ export const projectsData = [
     date: "DÃ©cembre 2023",
     languages: ["Html", "Css", "JavaScript"],
     infos:
-      "Dynamiser le site Internet statique dâ€™une petite imprimerie familiale nommÃ©e Print it.",
-    img: "./assets/img/print_it/yellow-book.jpg",
+      "Dynamiser le site Internet statique d'une petite imprimerie familiale nommée Print it.",
+    img: "./assets/img/print_it/yellow-book.webp",
     link: "https://chabindev.github.io/P5_Print_it/",
   },
   {
@@ -35,8 +35,8 @@ export const projectsData = [
     date: "Mars 2024",
     languages: ["React", "Css", "Sass", "JavaScript"],
     infos:
-      "DÃ©velopper en Freelance pour Kasa, une entreprise de location d'appartements entre particuliers.",
-    img: "./assets/img/kasa/kalen.png",
+      "Développer en Freelance pour Kasa, une entreprise de location d'appartements entre particuliers.",
+    img: "./assets/img/kasa/kalen.webp",
     link: "https://chabindev.github.io/P8_Kasa/",
   },
 ];
