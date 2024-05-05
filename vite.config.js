@@ -9,6 +9,8 @@ export default defineConfig({
   base: "/P12_PortFolio/",
   plugins: [react()],
   define: {
-    __SERVICE_ID__:`"${process.env.SERVICE_ID}"`,
+    SERVICE_ID: `"${process.env.SERVICE_ID}"`,
+    TEMPLATE_ID: `"${process.env.TEMPLATE_ID}"`,
+    PUBLIC_KEY: `"${process.env.PUBLIC_KEY}"`,
   },
 });
