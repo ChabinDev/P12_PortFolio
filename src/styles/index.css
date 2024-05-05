@@ -75,7 +75,6 @@ main {
           transform: translate(-50%, -50%);
   top: 50%;
   font-size: 3rem;
-  color: #434242;
   -webkit-transition: 0.25s;
   transition: 0.25s;
   padding: 0 14px;
