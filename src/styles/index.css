@@ -383,6 +383,11 @@ footer .address .content {
   color: #333;
 }
 
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+
 .social-network {
   position: absolute;
   right: 1rem;
