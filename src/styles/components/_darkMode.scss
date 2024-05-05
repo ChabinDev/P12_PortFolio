@@ -1,0 +1,15 @@
+.ToggleButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Dark {
+    background-color: #333;
+    color: #fff;
+}
+  .Light {
+    background-color: #fff;
+    color: #333;
+  }
