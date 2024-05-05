@@ -20,6 +20,7 @@ const ToggleButton = () => {
       <code>{theme}</code>
       <input
         type="checkbox"
+        aria-label="Toggle Theme"
         checked={theme === "Dark"}
         onChange={(e) => toggleTheme(e.currentTarget.checked)}
       />
