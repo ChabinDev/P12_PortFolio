@@ -75,7 +75,7 @@ main {
           transform: translate(-50%, -50%);
   top: 50%;
   font-size: 3rem;
-  color: rgb(184, 183, 183);
+  color: #434242;
   -webkit-transition: 0.25s;
   transition: 0.25s;
   padding: 0 14px;
@@ -307,7 +307,7 @@ footer .address .content {
   opacity: 0.5;
 }
 .navigation ul:hover li:hover {
-  color: rgb(40, 40, 40);
+  color: #0000FF;
 }
 .navigation .nav-portfolio {
   cursor: pointer;
