@@ -19,6 +19,7 @@ const ToggleButton = () => {
     <div className={`ToggleButton ${theme}`}>
       <code>{theme}</code>
       <input
+        className="input"
         type="checkbox"
         aria-label="Toggle Theme"
         checked={theme === "Dark"}

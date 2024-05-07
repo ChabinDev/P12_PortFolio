@@ -46,7 +46,6 @@
       display: flex;
       padding-right: 6rem;
       transition: .5s;
-      color: $white;
 
       @media screen and (max-width: 400px){
         color: $color-5;
@@ -77,8 +76,7 @@
           transform: rotatey(30deg) scaleX(1.2);
           transform-origin: center;
           transition: .3s;
-          color: $black;
-
+          color: rgb(233, 225, 109, 1);
         }
       }
     }

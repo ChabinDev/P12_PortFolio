@@ -27,7 +27,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="home">
       <ToggleButton />
       <Mouse />
       <motion.div

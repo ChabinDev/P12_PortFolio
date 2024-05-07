@@ -6,7 +6,9 @@ const Navigation = () => {
       <ul>
         <NavLink
           to="/"
-          className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+          className={(nav) =>
+            nav.isActive ? "nav-active hover Dark" : "hover"
+          }
         >
           <li>Accueil</li>
         </NavLink>
@@ -16,28 +18,36 @@ const Navigation = () => {
           <ul className="nav-projects">
             <NavLink
               to="/Projet-1"
-              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+              className={(nav) =>
+                nav.isActive ? "nav-active hover Dark " : "hover"
+              }
             >
               <li>Projet 1 : Booki</li>
             </NavLink>
 
             <NavLink
               to="/Projet-2"
-              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+              className={(nav) =>
+                nav.isActive ? "nav-active hover Dark " : "hover"
+              }
             >
               <li>Projet 2 : Ohmyfood</li>
             </NavLink>
 
             <NavLink
               to="/Projet-3"
-              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+              className={(nav) =>
+                nav.isActive ? "nav-active hover Dark" : "hover"
+              }
             >
               <li>Projet 3 : Print it</li>
             </NavLink>
 
             <NavLink
               to="/Projet-4"
-              className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
+              className={(nav) =>
+                nav.isActive ? "nav-active hover Dark" : "hover"
+              }
             >
               <li>Projet 4 : Kasa</li>
             </NavLink>
