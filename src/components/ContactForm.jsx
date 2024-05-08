@@ -67,7 +67,7 @@ const ContactForm = () => {
           type="email"
           id="email"
           required
-          placeholder="exemmple@domaine.com"
+          placeholder="exemple@domaine.com"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           autoComplete="off"
           value={email}
