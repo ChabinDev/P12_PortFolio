@@ -505,7 +505,7 @@ footer .credits p {
 }
 .contact .logo {
   top: 8px;
-  right: 1rem;
+  right: 60rem;
 }
 .contact .form-container {
   margin: 0% 0 0 35%;
@@ -1059,7 +1059,7 @@ footer .credits p {
   }
 }
 .project .project-main .project-content {
-  margin-right: 50px;
+  margin-right: 90px;
 }
 @media screen and (max-width: 700px) {
   .project .project-main .project-content {
@@ -1132,7 +1132,7 @@ footer .credits p {
   border-radius: 50%;
   position: absolute;
   top: -28px;
-  left: 50px;
+  left: 230px;
   z-index: -10;
 }
 @media screen and (max-width: 810px) {
@@ -1174,8 +1174,8 @@ footer .credits p {
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
           box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.26);
-  width: 600px;
-  height: 380px;
+  width: 900px;
+  height: 575px;
   overflow: hidden;
   position: relative;
 }

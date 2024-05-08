@@ -5,7 +5,7 @@ import Logo from "../components/Logo";
 import Buttons from "../components/Buttons";
 import SocialNetwork from "../components/SocialNetwork";
 import ContactForm from "../components/ContactForm";
-import { CopyToClipboard } from "react-copy-to-clipboard";
+//import { CopyToClipboard } from "react-copy-to-clipboard";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 
@@ -60,11 +60,11 @@ export default function Contact() {
               </CopyToClipboard>
           </div>
           </div>
-        <SocialNetwork />
-        <div className='credits'>
+          <div className='credits'>
           <p>ChabinDev - {year.getFullYear()} © - All Rights Reserved</p>
-        </div>
+          </div>
         </div> */}
+        <SocialNetwork />
         <Buttons left={"/projet-4"} />
         <Footer />
       </motion.div>

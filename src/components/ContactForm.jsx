@@ -51,7 +51,7 @@ const ContactForm = () => {
     <div className="form-container">
       <h2>Contactez-nous</h2>
       <form onSubmit={sendEmail} className="form-content">
-        <label for="nom">Nom</label>
+        <label htmlFor="nom">Nom</label>
         <input
           name="nom"
           type="text"
@@ -61,7 +61,7 @@ const ContactForm = () => {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <label for="email">Email</label>
+        <label htmlFor="email">Email</label>
         <input
           name="email"
           type="email"
@@ -73,7 +73,7 @@ const ContactForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           name="message"
           id="message"
